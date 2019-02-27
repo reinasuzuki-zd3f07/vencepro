@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^4.0.1"
+  },
+  "name": "russel",
+  "description": "[![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) \r ![npm](https://img.shields.io/npm/dt/express.svg)\r [![Coverage Status](https://img.shields.io/coveralls/facebook/react/master.svg?style=flat)](https://coveralls.io/github/facebook/react?branch=master)\r [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reinasuzuki-zd3f07/russelgoodal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reinasuzuki-zd3f07/russelgoodal/issues"
+  },
+  "homepage": "https://github.com/reinasuzuki-zd3f07/russelgoodal#readme"
+}
