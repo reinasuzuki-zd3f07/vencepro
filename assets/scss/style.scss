@@ -1,0 +1,22 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,700');
+@import "bootstrap";
+@import url("responsive.css") screen and (max-width: 768px);
+
+// 全体の設定 ここから
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;//10px
+}
+body{
+    font-size: 1.6rem;//16px
+}
+p{
+    font-size: 1.6rem;//16px
+}
+h1{
+    color: red;
+}
