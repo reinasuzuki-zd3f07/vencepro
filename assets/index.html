@@ -17,20 +17,49 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="/css/style.css" type="text/css" media="all">
     <!-- <link rel="stylesheet" href="responsive.css"> -->
 <!-- スマホ用の読み込みをコメントアウトしているので、後で解除する -->
 </head>
 <body>
-<nav>
-
+<div id="wrapper">
+<!-- ナビゲーションの追加：ここから -->
+  <nav class="navbar navbar-expand-md navbar-white fixed-top bg-white">
+  <h1>VencePro</h1>
+  <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">About us <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">メニュー</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">営業時間</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">アクセス</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">お問い合わせ</a>
+      </li>
+    </ul>
+  </div>
 </nav>
-<div class="container">
+<!-- ナビゲーションの追加：ここまで -->
+    <main>
+        <div class="container">
 
+        </div>
+    </main>
+    <footer>
+        <p class="copyright"><small>Copyright &copy; 2019 Vencepro All rights reserved.</small></p>
+    </footer>
 </div>
-<footer>
-    <p class="copyright"><small>Copyright &copy; 2019 Vencepro All rights reserved.</small></p>
-</footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/holder.min.js"></script>

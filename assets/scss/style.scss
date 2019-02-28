@@ -20,3 +20,19 @@ p{
 h1{
     color: red;
 }
+// ナビゲーションここから
+  h1{//h1の文字隠し
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  }
+// ナビゲーションメニュー
+.nav-link{
+  color: #1521FF;//文字色変える
+}
+a:hover{//ホバー時の文字色
+    color: FFD015;
+  }
+.nav-side{
+  float: right;
+}
