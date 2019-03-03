@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,700');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700&subset=japanese');
 @import "bootstrap";
 @import url("responsive.css") screen and (max-width: 768px);
 
@@ -13,26 +13,45 @@ html{
 }
 body{
     font-size: 1.6rem;//16px
+    font-family: 'Noto Serif JP', serif;
 }
 p{
     font-size: 1.6rem;//16px
 }
-h1{
-    color: red;
+#wrapper{
+  width: 100%
 }
 // ナビゲーションここから
+.navbar-brand img{
+  padding-left: 290px;
+}
   h1{//h1の文字隠し
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
   }
-// ナビゲーションメニュー
+  // ナビゲーションメニュー
 .nav-link{
   color: #1521FF;//文字色変える
 }
-a:hover{//ホバー時の文字色
-    color: FFD015;
+.nav-link:hover{//ホバー時の文字色
+    background-color: #FFD015;
+    color:#1521FF;//文字色
   }
-.nav-side{
-  float: right;
+//ナビゲーションここまで
+//mainここから
+//.topの変更
+.top {
+  margin-top: 54px ;
+  width: 1200px;
+  height: 800px;
+  background: url("../images/hero.jpg") center center no-repeat;
 }
+.phase{//文字の指定
+  color: #FFF;
+  padding-top: 350px;
+  padding-left: 100px;
+}
+
+
+//mainここまで
